@@ -10,7 +10,7 @@ Dotenv.load
 bot = Cinch::Bot.new do
   configure do |c|
     c.nick = 'benevolent_bot'
-    c.password =
+    c.password = ENV['PASSWORD']
     c.server = "irc.freenode.org"
     c.channels = ["#chicago-oss-devs"]
   end
