@@ -32,7 +32,7 @@ bot = Cinch::Bot.new do
   end
 
   on :message, "!help" do |m|
-    m.reply "<<Help>> I have many commands. Type !help to see this, !newbie for a new user's guide, !urban something to search urban dictionary, "
+    m.reply "<<Help>> I have many commands. Type !help to see this, !newbie for a new user's guide, !urban something to search urban dictionary"
   end
 
   on :message, "!newbie" do |m|
